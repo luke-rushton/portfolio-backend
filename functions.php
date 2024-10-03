@@ -241,7 +241,7 @@ function custom_post_type() {
 		'label'                 => __( 'Portfolio Work', 'text_domain' ),
 		'description'           => __( 'portfolio works', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor' ),
+		'supports'              => array( 'title', 'thumbnail', 'editor' ),
 		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
